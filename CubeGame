@@ -1,0 +1,6 @@
+-- pls like
+_G.isEnabled = true
+while _G.a do
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Cube"):WaitForChild("ClickCube"):FireServer()
+task.wait(.2)
+end
